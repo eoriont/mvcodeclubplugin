@@ -1,0 +1,19 @@
+name: CodeClubPlugin
+version: 1.0
+description: A minecraft managing plugin for the MVCodeClub Server
+main: net.oriont.codeclub.Plugin
+commands:
+  addrank:
+    description: Adds a player to a certain rank
+    permission: codeclub.add
+    usage: /<command> [player] [rank] [location]
+    permission-message: §4You don't have permission to do that!
+  removerank:
+    description: Removes a player from all their ranks
+    permission: codeclub.remove
+    usage: /<command> [player]
+    permission-message: §4You don't have permission to do that!
+  spawn:
+    description: teleports player to the spawn
+  setspawn:
+    description: sets the spawn at the player's location
